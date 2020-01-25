@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 RUN apt-get update
-RUN apt-get install openjdk-11-jre-headless leiningen curl -y
+RUN apt-get install openjdk-11-jre-headless leiningen curl git ssh -y
 RUN apt-get install python3-pyqt5.qtwebkit -y
 RUN apt-get install wget -y
 RUN wget https://download.calibre-ebook.com/3.48.0/calibre-3.48.0-x86_64.txz -O /opt/calibre-3.48.0-x86_64.txz
